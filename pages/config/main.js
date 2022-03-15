@@ -29,6 +29,8 @@ submit.addEventListener('click', () => {
 
 	}
 	})
+
+
 //selection
 const result$ = document.getElementById('resultado')
 const menos = document.getElementById('menos')
@@ -46,11 +48,11 @@ if (contador == 10) {alert('Fim de estoque')} else {
 
 })
 menos.addEventListener('click', function(){
-	if(contador == 0 ){
+	if(contador === 1 ){
 		alert('O pedido deve ser um numero positivo ')
-		onclick = false;
-	}
-	result$.innerHTML = --contador
+		
+	}else{
+	result$.innerHTML = --contador}
 })
 //action
 submit.addEventListener('click', () => {
@@ -61,4 +63,5 @@ submit.addEventListener('click', () => {
 		alert('a quantidade deve ser positivo')
 	}
 })
+
 
