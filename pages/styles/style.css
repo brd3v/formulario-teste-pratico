@@ -1,0 +1,269 @@
+body{
+	display: flex;
+	align-items: center;
+	text-align: center;
+justify-content: center;
+min-height: 100vh;
+background-color: #040408;
+font-size: 18px;
+font-family:rubik;
+width: 100%;
+}
+
+
+.app{
+	background-color: white;
+
+
+min-height: 60vh;
+justify-content: center;
+text-align: center;
+
+width: 50%;
+
+	display: grid;
+
+border: 2px solid gray;
+border-radius: 20px;
+overflow: hidden;
+}
+
+
+.container{
+	margin: 25px 25px;
+}
+
+
+.cabecalho{
+	color: white;
+	width: 100%;
+
+	font-size: 18px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+height: 25%;
+border-radius: 20px 20px 0 0;
+background-image: url('../img/bg-intro-mobile.svg');
+background-size: 100%;
+
+}
+
+.foto{
+	width: 150px;
+	height: 200px;
+	border-radius: 50%
+	
+}
+
+
+.cabecalhosss{
+	justify-content: center;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	color: white;
+	border-radius: 10px;
+	width: 100%;
+	height: 10%;
+	background-image: url('../img/bg-intro-mobile.svg');
+background-size: 100%;
+
+}
+
+
+
+
+.titulo{
+	display: grid;
+	justify-content: end;
+
+}
+.entrada{
+	text-align: start;
+	display: grid;
+	justify-content: start
+}
+.obs{
+	margin-top: -80%;
+	display: grid
+}
+
+.obs input{
+	margin: 10px 10px;
+	height: 70px;
+	border-radius: 10px;
+		transition: all ease 1s
+
+	
+}
+
+input:hover{
+	cursor: pointer;
+	background-color:#040404;
+	transition: all ease 1s;
+	color: white;
+}
+
+
+button{
+
+	color: white;
+
+
+	border-radius: 20px;
+	border: none;
+	cursor: pointer;
+		background-color:	#2E8B60;
+	transition: all ease 1s
+
+}
+button:hover{
+	color: blue;
+	background-color: #2E8B40;
+	border: 1px solid black;
+	
+	transition: all ease 1s
+}
+
+.btt{
+	margin:5% 25%;
+	height: 30px;
+}
+
+
+
+
+
+.adesivos{
+	width: 100%;
+	display: grid;
+	align-items: flex-start;
+	text-align: start;
+		transition: all ease 1s
+
+}
+
+.contador{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+
+}.btnone{
+	margin: 10px 10px;
+	width: 30px;
+	height: 30px;
+
+}
+.btntwo{
+	margin: 10px 10px;
+	width: 30px;
+	height: 30px;
+
+}
+
+
+
+@media(max-width: 600px){
+	body{
+		font-size: 12px;
+		width: 100%;
+		height: 100vh;
+		background-color: #2E8B69;
+	}
+
+	.app{
+		height: 80vh;
+		width: 50%;
+		overflow: hidden;
+	}
+
+	.cabecalho{
+	color: white;
+	width: 100%;
+
+
+	font-size: 12px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+height: 25%;
+border-radius: 20px 20px 0 0;
+background-image: url('../img/bg-intro-mobile.svg');
+background-size: 100%;
+
+}
+.foto{
+	display: none;
+	
+}
+
+}.btnone{
+	margin: 5px 5px;
+	width: 20px;
+	height: 20px;
+}
+.btntwo{
+	margin: 5px 5px;
+	width: 20px;
+	height: 20px;
+}
+.container{
+	width: 100;
+}
+
+.obs{
+	
+-	display: grid
+}
+.cabecalhos{
+
+	color: white;
+	width: 100%;
+margin-top: -50px;
+
+	font-size: 12px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+height: 80%;
+border-radius: 0 0 20px 20px ;
+background-image: url('../img/bg-intro-mobile.svg');
+background-size: 100%;
+margin: 0 25px 0 25px ;
+
+}
+.obs{
+	
+	margin-top: 10px;
+	display: grid
+}
+.obs input{
+	margin: 25px 25px;
+	height: 50px;
+	border-radius: 10px;
+		transition: all ease 1s
+
+	
+}
+.contador{
+	width: 50px;
+	height: 50px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+
+}
+input:hover{
+	cursor: pointer;
+	background-color: #2E8B69;
+	transition: all ease 1s;
+	color: white;
+}
+
+
+}
