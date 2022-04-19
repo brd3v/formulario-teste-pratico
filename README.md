@@ -14,3 +14,6 @@
 
 ![1647347380431](https://user-images.githubusercontent.com/86988869/158377892-ff89f37a-2110-4891-90c4-72a150628ab3.png)
 
+
+
+***Na epoca não pennsei que fose importante, mas deveria ter sido feito com form com methods POST, dei mole
